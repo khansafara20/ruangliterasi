@@ -1,0 +1,326 @@
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+.navbar-brand  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+
+}
+.jumbotron {
+    background-image:url(./foto2.jpg);
+    background-size: cover;
+    height: 540px;
+    color: slategray;
+    position: relative;
+    margin-top: -250px;
+    
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    height: 80%;
+    width: 100%;
+   background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+.jumbotron, .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+}
+.jumbotron, .display-4 span {
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.container::after {
+    padding: 20px;
+    margin: 0px auto;
+}
+h3{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(44, 34, 14);
+    padding-bottom: 20px;
+}
+.konten1 {
+    width: 500px;
+    float: right;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.gambar{
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 20px;
+}
+.card{
+    margin-bottom: 10px;
+}
+
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.content1{
+    position: relative;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .content1 .text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #202020;
+  }
+  .content1 .p{
+    font-size: 2.1875rem;
+    font-weight: 600;
+    color: #202020;
+  }
+  footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+  }
+  .main-content{
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+    background: #f12020;
+  }
+  .center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .right form .text{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: #656565;
+  }
+  .right form .msg{
+    margin-top: 10px;
+  }
+  .right form input, .right form .msgForm{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+  .right form input:focus,
+  .right form .msgForm:focus{
+    outline-color: #3498db;
+  }
+  .right form input{
+    height: 35px;
+  }
+  .right form .btn{
+    margin-top: 10px;
+  }
+  .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .right form .btn button:hover{
+    background: #000;
+  }
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #f12020;
+    text-decoration: none;
+  }
+  .bottom center a:hover{
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+      
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+
+    .akhir{
+        margin-top: 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+.tombol{
+    text-transform: uppercase;
+    border-radius: 40px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: snow !important;
+        text-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.7);
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav-link:hover {
+            border-bottom: 3px solid #5c0d0d;
+            width: 50% !important;
+        
+    
+    }
+    .nav-link:hover::after {
+       content: '';
+       display: block;
+       border-bottom: 3px solid #925542;
+       width: 50%;
+       margin: auto;
+       padding-bottom: 3px;
+       margin-bottom: -8px;
+       
+
+    }
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+    .jumbotron, .display-4{
+        font-size: 62px;
+
+    }
+    .socialmedia{
+        display: inline-block;
+        margin-right: 50px;
+        padding-right: 50px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+    
